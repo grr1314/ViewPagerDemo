@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerView">
+        <attr name="isShowIndicator" format="boolean" />
+        <attr name="indicator_Gravity">
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+            <flag name="center_horizontal" value="0x01" />
+        </attr>
+        <attr name="indicatorLeftAndRightMargin" format="dimension" />
+        <attr name="indicatorTopAndBottomMargin" format="dimension" />
+        <attr name="indicatorLayout_BackgroungRes" format="reference" />
+        <attr name="indicatorLayout_BackgroundColor" format="color" />
+        <attr name="transitionEffect" format="enum">
+            <enum name="defaultEffect" value="0" />
+            <enum name="alpha" value="1" />
+            <enum name="scale" value="2" />
+        </attr>
+
+        <attr name="bannerModeType" format="enum">
+            <enum name="defaultType" value="0" />
+            <enum name="order" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+
+    </declare-styleable>
+
+</resources>

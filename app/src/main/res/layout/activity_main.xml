@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lc.viewpagerdemo.MainActivity">
+
+    <com.lc.grrbanner.BannerView
+        android:id="@+id/bannerView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:bannerModeType="order"
+        app:indicatorLayout_BackgroundColor="@color/colorPrimary"
+        app:indicatorLeftAndRightMargin="5dp"
+        app:indicator_Gravity="center_horizontal"
+        app:isShowIndicator="true"
+        app:transitionEffect="alpha" />
+</LinearLayout>
